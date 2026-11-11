@@ -664,8 +664,7 @@ def run_optimized_sweep():
 
     print("=" * 90)
     print("Starting evaluation: Myopic / WhittleIndex / PPO-R / GRETA / MH-GRETA / PAI")
-    print(f"New baseline: MH-GRETA-H{MH_GRETA_H}, explicitly considering delayed multi-hop propagation")
-    print("Note: PAI algorithm keeps the original implementation without modification")
+   
     print("=" * 90)
 
     results_db = {}
